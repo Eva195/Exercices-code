@@ -1,0 +1,175 @@
+body {
+	color:white;
+	background-image: url("bureaux.jpg");
+	background-size: 92%;
+	margin: 0 0 0 0;
+	
+}
+
+#robust {
+	color:white;
+	text-decoration: none;
+	font-size: 25px;
+	left:150px;
+	display: block;
+	position:absolute;
+	font-family: Tahoma;
+	font-weight: 600;
+
+}
+
+ul {  
+  margin: 0;
+  padding: 0;
+
+}
+
+#pages {
+	color: white;
+}
+
+li {
+  display: inline-block;
+  text-align: right;
+  color: white;
+
+}
+
+.navbar {
+	text-align:right;
+	position:fixed;
+	right:0;
+	margin-right: 200px;
+	text-decoration: none;
+	color: white;
+	background-color: none;
+	font-family: Tahoma;
+	font-size: medium;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none; 
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  font-stretch: expanded;
+  color: rgb(176,196,222)
+}
+
+#container {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: top;
+
+}
+
+#text {
+   width: 600px;
+   margin: 200px 0 0 150px;
+   font-family: Tahoma;
+
+
+}
+
+h1 {
+	text-align: left;
+    font-family: Tahoma;
+    align-items:center;
+    vertical-align: left;
+    font-size: 40px
+  
+}
+
+p {
+	text-align: left;
+	font-size: medium;
+	vertical-align: left;
+	font-size: 17px;
+
+}
+
+#formulaire {
+	border: 15px solid white;
+  	border-radius: 5px;
+	background-color: white;
+    color:#000000;
+    top:120px;
+    width:400px;
+    margin: 180px 220px 0 140px;
+    height: 200px;
+    font-family: Arial;
+    font-size: 15px;
+    padding-bottom: 90px;
+    padding-left:10px;
+
+
+
+}
+
+.button1 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid white;
+	background-color: rgba(77, 148, 255, 0.9);
+	font-size:20px;
+	color:white;
+	font-size: 17px;
+	padding: 6px;
+	cursor: pointer;
+	
+}
+
+
+.button2 {
+	width: 100%;
+	padding: 8px 30px;
+	background: #40bf40;
+	color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #40bf40;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 12px;
+	cursor: pointer;
+
+}
+
+form {
+	font-family: Tahoma;
+	line-height: 35px;
+	
+}
+
+input {
+	width: 350px;
+	height: 25px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid lightgrey;
+
+}
+
+#name {
+	margin-left: 5px;
+}
+
+#password {
+	margin-left: 5px;
+}
+#bleu  {
+	background-color: rgba(77, 148, 255, 0.8);
+	width:100%;
+	height: 100%;
+	position:absolute;
+	font-family: Arial;
+	display: block;
+	margin:0 0 0 0;
+
+
+}
